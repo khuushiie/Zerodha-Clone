@@ -3,12 +3,12 @@ import Hero from './Hero';
 import Team from './Team';
 
 function AboutPage() {
-    return ( 
+    return (
         <div>
-            <Hero/>
-            <Team/>
+            <Hero />
+            <Team />
         </div>
-     );
+    );
 }
 
 export default AboutPage;

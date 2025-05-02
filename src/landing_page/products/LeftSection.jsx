@@ -2,7 +2,7 @@ import React from 'react';
 
 function LeftSection({ imageURL, productName, productDescription, tryDemo, learnMore, googlePlay, appStore }) {
     return (
-        <div className='container ' style={{marginBottom: "8rem"}}>
+        <div className='container ' style={{ marginBottom: "8rem" }}>
             <div className="row">
                 <div className="col-1"></div>
 
@@ -20,7 +20,7 @@ function LeftSection({ imageURL, productName, productDescription, tryDemo, learn
                         <a href={learnMore} style={{ textDecoration: "none" }}>Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
 
-                    <div style={{ display: "flex", justifyContent: "space-between", width:"70%",  marginTop: "2rem" }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", width: "70%", marginTop: "2rem" }}>
                         <a href={googlePlay}><img src='media/images/googlePlayBadge.svg' /></a>
                         <a href={appStore}><img src="media/images/appstoreBadge.svg" alt="" /></a>
                     </div>

@@ -1,15 +1,15 @@
 import React from 'react';
 
 function RightSection({ imageURL, productName, productDescription, learnMore }) {
-    return ( 
-        <div className='container' style={{marginBottom: "8rem"}}>
+    return (
+        <div className='container' style={{ marginBottom: "8rem" }}>
             <div className="row">
                 <div className="col-1"></div>
 
                 <div className="col-4" style={{ marginLeft: "5rem", marginTop: "12rem" }}>
                     <h1>{productName}</h1>
                     <p>{productDescription}</p>
-                    <div style={{marginTop: "2rem" }}>
+                    <div style={{ marginTop: "2rem" }}>
                         <a href={learnMore} style={{ textDecoration: "none" }}>Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ function RightSection({ imageURL, productName, productDescription, learnMore }) 
 
             </div>
         </div>
-     );
+    );
 }
 
 export default RightSection;
